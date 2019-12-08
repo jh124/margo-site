@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" type="image/png" href="margo-icon.png" />
+        <link rel="stylesheet" href="index.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Margo</title>
+    </head>
+    <body>
+        <header>
+            <h2>This is Margo</h2>
+        </header>
+        <div id="main-container" class="container">
+            <main class="container">
+                <div class="img-container">
+                    <img
+                        src="pics/margo-best-square.jpg"
+                        alt="Margo on the couch"
+                    />
+                </div>
+
+                <p class="words">
+                    Margo was found outside of a Mexican restaurant in Georgia,
+                    USA, on November 10, 2019. She was later found to have an
+                    upper respiratory infection, worms, and fleas. She is doing
+                    much better now, and she loves to play with anything she can
+                    get her little paws on.
+                </p>
+                <div id="photos-btn-container">
+                    <a href="photos.html"
+                        ><button id="photos-btn" class="button">
+                            Photos
+                        </button></a
+                    >
+                </div>
+                <br />
+                <div class="form-container">
+                    <form name="feedback:" method="post" data-netlify="true">
+                        <label id="feedback-label">
+                            Give me some feedback about my cat:</label
+                        >
+                        <br />
+                        <textarea
+                            id="feedback-in"
+                            name="Feedback"
+                            placeholder="Feedback Here"
+                            maxlength="300"
+                            required
+                        ></textarea>
+                        <br />
+                        <label id="name-label"> Name:</label>
+                        <br />
+                        <input
+                            id="name-in"
+                            type="text"
+                            name="Name"
+                            autocomplete="off"
+                            placeholder="Name Here"
+                        /><br />
+                        <input
+                            id="submit"
+                            class="button"
+                            type="submit"
+                            value="Submit"
+                        />
+                    </form>
+                </div>
+            </main>
+            <footer>
+                <p><span id="copy">&copy</span> 2019, Jack Harper</p>
+            </footer>
+        </div>
+    </body>
+</html>
